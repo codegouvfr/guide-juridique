@@ -72,14 +72,13 @@ Je souhaite plus d'informations.
                :color   "is-warning"
                :goto    "fin-1"}]}
 
-   {:name    "3"
-    :text    "Existe-il un secret faisant obstacle à la communication du logiciel ?"
-    :help    [:div
-              [:p "L’existence d’un secret peut empêcher la publication d’un logiciel."]
-              [:br]
-              [:p "Cela peut être un secret absolu : certains logiciels, dans l’intérêt public, ne peuvent être rendus publics par vous, notamment pour des questions sécuritaires et de sûreté nationale. "]
-              [:br]
-              [:p "Le secret peut aussi être relatif. Il ne vaut alors qu’à l’égard de certains administrés, puisqu’il s’agit de protéger leurs intérêts privés, il peut s’agir : (1) du secret de la vie privée, documents comportant une appréciation ou un jugement de valeur sur une personne physique, ou faisant apparaître un comportement ; (2) du secret en matière commerciale et industrielle."]]
+   {:name "3"
+    :text "Existe-il un secret faisant obstacle à la communication du logiciel ?"
+    :help "L’existence d’un secret peut empêcher la publication d’un logiciel.
+<br/><br/>
+Cela peut être un secret absolu : certains logiciels, dans l’intérêt public, ne peuvent être rendus publics par vous, notamment pour des questions sécuritaires et de sûreté nationale.
+<br/><br/>
+Le secret peut aussi être relatif. Il ne vaut alors qu’à l’égard de certains administrés, puisqu’il s’agit de protéger leurs intérêts privés, il peut s’agir : (1) du secret de la vie privée, documents comportant une appréciation ou un jugement de valeur sur une personne physique, ou faisant apparaître un comportement ; (2) du secret en matière commerciale et industrielle."
     :choices [{:answer  "Non"
                :summary "Votre logiciel ne contient pas de secret légal, relatif ou absolu."
                :color   "is-success"
@@ -101,12 +100,11 @@ Je souhaite plus d'informations.
                :color   "is-warning"
                :goto    "fin-1"}]}
 
-   {:name    "5"
-    :text    "Votre logiciel est-il composé d’éléments protégés par des droits tiers, par exemple extraits du code source d’autres logiciels ?"
-    :help    [:div
-              [:p "La diffusion du logiciel au public peut être empêchée par la détention, par un tiers, de droits de propriété intellectuelle sur une partie de votre logiciel. Ce dernier peut, par exemple, être construit à partir d’éléments d’autres logiciels qui peuvent être protégés par des licences."]
-              [:br]
-              [:p "Une licence est un contrat par lequel le concepteur du logiciel en autorise l'exploitation par un tiers sous certaines conditions. Elle peut être libre, l'auteur concède alors tout ou partie de ses droits, en laissant au minimum 4 droits considérés fondamentaux aux utilisateurs (usage, étude, modification et redistribution de l'œuvre). Une licence explicite l’existence de droits tiers, mais il peut en exister même lorsqu’il n’y a pas de licence. "]]
+   {:name "5"
+    :text "Votre logiciel est-il composé d’éléments protégés par des droits tiers, par exemple extraits du code source d’autres logiciels ?"
+    :help "La diffusion du logiciel au public peut être empêchée par la détention, par un tiers, de droits de propriété intellectuelle sur une partie de votre logiciel. Ce dernier peut, par exemple, être construit à partir d’éléments d’autres logiciels qui peuvent être protégés par des licences.
+<br/><br/>
+Une licence est un contrat par lequel le concepteur du logiciel en autorise l'exploitation par un tiers sous certaines conditions. Elle peut être libre, l'auteur concède alors tout ou partie de ses droits, en laissant au minimum 4 droits considérés fondamentaux aux utilisateurs (usage, étude, modification et redistribution de l'œuvre). Une licence explicite l’existence de droits tiers, mais il peut en exister même lorsqu’il n’y a pas de licence. "
     :choices [{:answer  "Non"
                :summary "Il n'existe pas de droits tiers sur le code source de votre logiciel."
                :color   "is-success"
@@ -148,7 +146,7 @@ Je souhaite plus d'informations.
 
    {:name    "8"
     :text    "Êtes-vous juridiquement contraint par les droits tiers des logiciels libres que vous intégrez à un choix limité de licences ?"
-    :help    ""
+    :help    "TBD"
     :choices [{:answer  "Non"
                :summary "Le choix de votre licence est libre."
                :color   "is-success"
