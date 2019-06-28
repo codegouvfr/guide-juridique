@@ -118,10 +118,9 @@ Une licence est un contrat par lequel le concepteur du logiciel en autorise l'ex
                :goto    "6"
                :color   "is-danger"}]}
 
-   {:name "6"
-    :text "Est-il possible de publier votre logiciel séparément des éléments relevant de droits tiers, sans que cela ne dénature ni ne vide de son sens le logiciel ?"
-    :help "Un document est « dénaturé » ou « vidé » de son sens s’il ne contient plus de données ou si les données-clés pour sa compréhension ne sont pas disponibles."
-    
+   {:name    "6"
+    :text    "Est-il possible de publier votre logiciel séparément des éléments relevant de droits tiers, sans que cela ne dénature ni ne vide de son sens le logiciel ?"
+    :help    "Un document est « dénaturé » ou « vidé » de son sens s’il ne contient plus de données ou si les données-clés pour sa compréhension ne sont pas disponibles."
     :choices [{:answer  "Oui"
                :summary ["Il est possible d'occulter les éléments relevant de droits tiers." "Vous devez occulter ces éléments."]
                :goto    "7"
@@ -178,7 +177,7 @@ Une licence est un contrat par lequel le concepteur du logiciel en autorise l'ex
     :done true}
    {:name "fin-4"
     :text "Vous devez publier votre logiciel et <a target=\"new\" href=\"https://www.data.gouv.fr/fr/licences\">opter pour une licence avec obligation de réciprocité</a>."
-    :done true}]
-  {:name "fin-5"
-   :text "Vous devez publier votre logiciel et <a target href=\"https://www.data.gouv.fr/fr/licences\">opter pour une licence permissive</a>."
-   :done true})
+    :done true}
+   {:name "fin-5"
+    :text "Vous devez publier votre logiciel et <a target=\"new\" href=\"https://www.data.gouv.fr/fr/licences\">opter pour une licence permissive</a>."
+    :done true}])
