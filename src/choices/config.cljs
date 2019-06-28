@@ -48,21 +48,21 @@ Je souhaite plus d'informations.
                   :color  "is-success"}]}
    
    {:name       "1"
-    :text       "Produisez-vous ou recevez-vous un logiciel, dans le cadre de l’exercice d’une mission de service public ?"
+    :text       "Produisez-vous ou recevez-vous un logiciel, dans le cadre de l’exercice d’une mission de service public ?"
     :start-page true
     :help       "Un logiciel est un ensemble des programmes, procédés et règles, et éventuellement de la documentation, relatifs au fonctionnement d'un ensemble de traitement de données. Une mission de service publique relève d’une activité d’intérêt général menée sous le contrôle de l’administration avec des prérogatives de puissance publique."
     :choices    [{:answer  "Oui"
-                  :summary "Vous produisez ou recevez un document administratif qui doit être communiqué pourvu qu’il ait un intérêt économique, social, sanitaire ou environnemental."
+                  :summary "Vous produisez ou recevez un <a target=\"new\" href=\"https://www.legifrance.gouv.fr/affichCodeArticle.do?idArticle=LEGIARTI000033218936&cidTexte=LEGITEXT000031366350&dateTexte=20161009\">document administratif</a> qui doit être communiqué pourvu qu’il ait un intérêt économique, social, sanitaire ou environnemental."
                   :goto    "2"
                   :color   "is-success"}
                  {:answer  "Non"
-                  :summary "Vous ne produisez ou ne recevez pas de document administratif, vous n’avez pas à établir une licence de réutilisation de données publiques."
+                  :summary "Vous ne produisez ou ne recevez pas de <a target=\"new\" href=\"https://www.legifrance.gouv.fr/affichCodeArticle.do?idArticle=LEGIARTI000033218936&cidTexte=LEGITEXT000031366350&dateTexte=20161009\">document administratif</a>, vous n’avez pas à établir une licence de réutilisation de données publiques."
                   :color   "is-warning"
                   :goto    "fin-1"}]}
 
    {:name    "2"
-    :text    "Votre logiciel est-il achevé ?"
-    :help    "Un logiciel est considéré comme achevé dès lors qu’il est utilisé en production."
+    :text    "Votre logiciel est-il achevé ?"
+    :help    "Le droit à communication ne s'applique qu'à des <a href=\"https://www.legifrance.gouv.fr/affichCodeArticle.do?idArticle=LEGIARTI000031367700&cidTexte=LEGITEXT000031366350&dateTexte=20160101\" target=\"new\">documents achevés</a>.  Un logiciel est considéré comme achevé dès lors qu’il est utilisé en production. "
     :choices [{:answer  "Oui"
                :summary "Votre logiciel est achevé."
                :goto    "3"
@@ -72,13 +72,13 @@ Je souhaite plus d'informations.
                :color   "is-warning"
                :goto    "fin-1"}]}
 
-   {:name "3"
-    :text "Existe-il un secret faisant obstacle à la communication du logiciel ?"
-    :help "L’existence d’un secret peut empêcher la publication d’un logiciel.
+   {:name    "3"
+    :text    "Existe-il un secret faisant obstacle à la communication du logiciel ?"
+    :help    "L’existence d’un secret peut empêcher la publication d’un logiciel.
 <br/><br/>
-Cela peut être un secret absolu : certains logiciels, dans l’intérêt public, ne peuvent être rendus publics par vous, notamment pour des questions sécuritaires et de sûreté nationale.
+Cela peut être un <a href=\"https://www.legifrance.gouv.fr/affichCodeArticle.do?idArticle=LEGIARTI000033265181&cidTexte=LEGITEXT000031366350&dateTexte=20170701\" target=\"new\">secret absolu</a> : certains logiciels, dans l’intérêt public, ne peuvent être rendus publics par vous, notamment pour des questions sécuritaires et de sûreté nationale.
 <br/><br/>
-Le secret peut aussi être relatif. Il ne vaut alors qu’à l’égard de certains administrés, puisqu’il s’agit de protéger leurs intérêts privés, il peut s’agir : (1) du secret de la vie privée, documents comportant une appréciation ou un jugement de valeur sur une personne physique, ou faisant apparaître un comportement ; (2) du secret en matière commerciale et industrielle."
+Le secret peut aussi être <a href=\"https://www.legifrance.gouv.fr/affichCodeArticle.do;jsessionid=9E840349D3C48307C89BEA8DBA9C48B2.tplgfr23s_2?idArticle=LEGIARTI000033218964&cidTexte=LEGITEXT000031366350&dateTexte=20170701\" target=\"new\">relatif</a>. Il ne vaut alors qu’à l’égard de certains administrés, puisqu’il s’agit de protéger leurs intérêts privés, il peut s’agir : (1) du secret de la vie privée, documents comportant une appréciation ou un jugement de valeur sur une personne physique, ou faisant apparaître un comportement ; (2) du secret en matière commerciale et industrielle."
     :choices [{:answer  "Non"
                :summary "Votre logiciel ne contient pas de secret légal, relatif ou absolu."
                :color   "is-success"
@@ -90,7 +90,7 @@ Le secret peut aussi être relatif. Il ne vaut alors qu’à l’égard de certa
 
    {:name    "4"
     :text    "Est-il possible d’occulter les éléments relevant d’un secret par un traitement automatisé d’usage courant sans que cela ne dénature ni ne vide de son sens le document ?"
-    :help    "Un document est « dénaturé » ou « vidé » de son sens s’il ne contient plus de données ou si les données clé pour la compréhension du document sont enlevées."
+    :help    "La communication des documents administratifs peut exiger d'<a target=\"new\" href=\"https://www.legifrance.gouv.fr/affichCodeArticle.do;jsessionid=9E840349D3C48307C89BEA8DBA9C48B2.tplgfr23s_2?idArticle=LEGIARTI000031367719&cidTexte=LEGITEXT000031366350&dateTexte=20170701\">occulter</a> les secrets qu'ils contienneent.  Un document est « dénaturé » ou « vidé » de son sens s’il ne contient plus de données ou si les données clé pour la compréhension du document sont enlevées."
     :choices [{:answer  "Oui"
                :summary "Vous devez occulter des éléments."
                :goto    "7"
@@ -100,9 +100,9 @@ Le secret peut aussi être relatif. Il ne vaut alors qu’à l’égard de certa
                :color   "is-warning"
                :goto    "fin-1"}]}
 
-   {:name "5"
-    :text "Votre logiciel est-il composé d’éléments protégés par des droits tiers, par exemple extraits du code source d’autres logiciels ?"
-    :help "La diffusion du logiciel au public peut être empêchée par la détention, par un tiers, de droits de propriété intellectuelle sur une partie de votre logiciel. Ce dernier peut, par exemple, être construit à partir d’éléments d’autres logiciels qui peuvent être protégés par des licences.
+   {:name    "5"
+    :text    "Votre logiciel est-il composé d’éléments protégés par des droits tiers, par exemple extraits du code source d’autres logiciels ?"
+    :help    "La diffusion du logiciel au public peut être empêchée par <a target=\"new\" href=\"https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000031366350&idArticle=LEGIARTI000033219038\">la détention, par un tiers, de droits de propriété intellectuelle sur une partie de votre logiciel</a>. Ce dernier peut, par exemple, être construit à partir d’éléments d’autres logiciels qui peuvent être protégés par des licences.
 <br/><br/>
 Une licence est un contrat par lequel le concepteur du logiciel en autorise l'exploitation par un tiers sous certaines conditions. Elle peut être libre, l'auteur concède alors tout ou partie de ses droits, en laissant au minimum 4 droits considérés fondamentaux aux utilisateurs (usage, étude, modification et redistribution de l'œuvre). Une licence explicite l’existence de droits tiers, mais il peut en exister même lorsqu’il n’y a pas de licence. "
     :choices [{:answer  "Non"
@@ -119,8 +119,8 @@ Une licence est un contrat par lequel le concepteur du logiciel en autorise l'ex
                :color   "is-danger"}]}
 
    {:name "6"
-    :text "Est-il possible d’occulter les éléments relevant de droits tiers sans que cela ne dénature ni ne vide de son sens le document ?"
-    :help "Un document est « dénaturé » ou « vidé » de son sens s’il ne contient plus de données ou si les données-clés pour la compréhension du document sont enlevées."
+    :text "Est-il possible de publier votre logiciel séparément des éléments relevant de droits tiers, sans que cela ne dénature ni ne vide de son sens le logiciel ?"
+    :help "Un document est « dénaturé » ou « vidé » de son sens s’il ne contient plus de données ou si les données-clés pour sa compréhension ne sont pas disponibles."
     
     :choices [{:answer  "Oui"
                :summary ["Il est possible d'occulter les éléments relevant de droits tiers." "Vous devez occulter ces éléments."]
@@ -132,21 +132,20 @@ Une licence est un contrat par lequel le concepteur du logiciel en autorise l'ex
                :goto    "fin-1"}]}
 
    {:name    "7"
-    :text    "Êtes-vous autorisé à pratiquer une forme de redevance ?"
-    :help    "Il est possible pour vous d’exiger une redevance pour la réutilisation des données publiques que vous avez l’obligation de communiquer, si vous êtes tenue, en tant qu’administration, de couvrir par des recettes propres une part substantielle des coûts liés à l'accomplissement de vos missions de service public."
+    :text    "Êtes-vous autorisé à pratiquer une forme de redevance ?"
+    :help    "Il est possible pour vous d’exiger une <a target=\"new\" href=\"https://www.legifrance.gouv.fr/affichCodeArticle.do?idArticle=LEGIARTI000033219051&cidTexte=LEGITEXT000031366350&dateTexte=20161009\">redevance</a> pour la réutilisation des données publiques que vous avez l’obligation de communiquer, si vous êtes tenue, en tant qu’administration, de couvrir par des recettes propres une part substantielle des coûts liés à l'accomplissement de vos missions de service public."
     :choices [{:answer  "Non"
                :summary "Vous n'êtes pas autorisé à pratiquer une forme de redevance, la réutilisation du code source est gratuite."
                :color   "is-success"
                :goto    "9"}
               {:answer  "Oui"
-               :summary "Vous êtes autorisé à pratiquer une forme de redevance.  L’établissement d’une licence est obligatoire, mais celle-ci est libre, elle doit simplement respecter les conditions édictées par le Code des relations entre le public et l’administration."
+               :summary "Vous êtes autorisé à pratiquer une forme de redevance.  L’établissement d’une licence est obligatoire, mais celle-ci est libre, elle doit simplement <a target=\"new\" href=\"https://www.legifrance.gouv.fr/affichCodeArticle.do?idArticle=LEGIARTI000033219073&cidTexte=LEGITEXT000031366350&dateTexte=20161009\">respecter les conditions édictées par le Code des relations entre le public et l’administration</a>."
                :goto    "fin-2"
                :color   "is-warning"}]}
 
-
    {:name    "8"
-    :text    "Êtes-vous juridiquement contraint par les droits tiers des logiciels libres que vous intégrez à un choix limité de licences ?"
-    :help    "TBD"
+    :text    "Êtes-vous juridiquement contraint par les droits tiers des logiciels libres à un choix limité de licences ?"
+    :help    "Si le code source de votre logiciel intègre des codes sources publiés sous licence libre, la licence de ses éléments peut limiter votre choix de licence.  Par exemple, si votre code source intègre du code source publié sous licence GNU GPL, vous devrez utiliser la licence GNU GPL ou une licence compatible pour votre propre code source."
     :choices [{:answer  "Non"
                :summary "Le choix de votre licence est libre."
                :color   "is-success"
@@ -157,8 +156,8 @@ Une licence est un contrat par lequel le concepteur du logiciel en autorise l'ex
                :color   "is-warning"}]}
 
    {:name    "9"
-    :text    "La libre réutilisation des données publiques pourrait-elle porter atteinte à l’intérêt général ?"
-    :help    "Vous devez choisir parmi une liste de licences qui peuvent être utilisées par les administrations pour la réutilisation à titre gratuit de leurs informations publiques. Vous avez le choix entre des licences dites « permissives » qui offrent une libre réutilisation, et des licences avec obligation de réciprocité, qui conditionnent la réutilisation à certains critères dont le partage des améliorations."
+    :text    "La libre réutilisation des données publiques pourrait-elle porter atteinte à l’intérêt général ?"
+    :help    "Vous devez choisir parmi une <a target=\"new\" href=\"https://www.data.gouv.fr/fr/licences\">liste de licences</a> qui peuvent être utilisées par les administrations pour la réutilisation à titre gratuit de leurs informations publiques. Vous avez le choix entre des licences dites « permissives » qui offrent une libre réutilisation, et des licences avec obligation de réciprocité, qui conditionnent la réutilisation à certains critères dont le partage des améliorations."
     :choices [{:answer  "Non"
                :summary "La libre réutilisation du logiciel ne porte pas atteinte à l'intérêt général."
                :color   "is-success"
@@ -169,18 +168,17 @@ Une licence est un contrat par lequel le concepteur du logiciel en autorise l'ex
                :color   "is-warning"}]}
 
    {:name "fin-1"
-    :text "Vous n’avez pas à rendre public le logiciel."
+    :text "Vous n’avez pas à rendre public le code source du logiciel."
     :done true}
    {:name "fin-2"
-    :text "Vous devez établir une licence, mais celle-ci ne devra pas nécessairement faire partie de la liste des licences fixées par décret."
+    :text "Vous devez établir une licence pour votre logiciel, mais celle-ci ne devra pas nécessairement faire partie de la liste des licences fixées par décret."
     :done true}
    {:name "fin-3"
-    :text "Vous devez publier votre logiciel ; vous êtes limités dans votre choix de licence par les éléments que vous avez incorporés dans le code source de votre logiciel."
+    :text "Vous devez publier le code source de votre logiciel ; vous êtes limités dans votre choix de licence par les éléments que vous avez incorporés dans le code source de votre logiciel."
     :done true}
    {:name "fin-4"
-    :text "Vous devez publier votre logiciel et opter pour une licence avec obligation de réciprocité."
-    :done true}
-   {:name "fin-5"
-    :text "Vous devez publier votre logiciel et opter pour une licence permissive."
-    :done true}])
-
+    :text "Vous devez publier votre logiciel et <a target=\"new\" href=\"https://www.data.gouv.fr/fr/licences\">opter pour une licence avec obligation de réciprocité</a>."
+    :done true}]
+  {:name "fin-5"
+   :text "Vous devez publier votre logiciel et <a target href=\"https://www.data.gouv.fr/fr/licences\">opter pour une licence permissive</a>."
+   :done true})
