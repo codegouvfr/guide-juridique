@@ -68,7 +68,7 @@ Je souhaite plus d'informations.
                :goto    "3"
                :color   "is-success"}
               {:answer  "Non"
-               :summary "Votre logiciel n’est pas utilisé en production, vous n'avez pas à le communiquer."
+               :summary "Votre logiciel n’est pas utilisé en production, vous n'êtes pas tenu de le communiquer.  Toutefois, il est de bonne pratique de publier les codes sources de vos logiciels avant même leur utilisation en production."
                :color   "is-warning"
                :goto    "fin-1"}]}
 
@@ -167,17 +167,17 @@ Une licence est un contrat par lequel le concepteur du logiciel en autorise l'ex
                :color   "is-warning"}]}
 
    {:name "fin-1"
-    :text "Vous n’avez pas à rendre public le code source du logiciel."
+    :text "Vous n'êtes pas soumis au régime des documents administratifs."
     :done true}
    {:name "fin-2"
-    :text "Vous devez établir une licence pour votre logiciel, mais celle-ci ne devra pas nécessairement faire partie de la liste des licences fixées par décret."
+    :text "Vous établirez une licence pour votre logiciel, mais celle-ci ne devra pas nécessairement faire partie de la liste des licences fixées par décret."
     :done true}
    {:name "fin-3"
-    :text "Vous devez publier le code source de votre logiciel ; vous êtes limités dans votre choix de licence par les éléments que vous avez incorporés dans le code source de votre logiciel."
+    :text "Vous publierez le code source de votre logiciel ; vous êtes limités dans votre choix de licence par les éléments que vous avez incorporés dans le code source de votre logiciel."
     :done true}
    {:name "fin-4"
-    :text "Vous devez publier votre logiciel et <a target=\"new\" href=\"https://www.data.gouv.fr/fr/licences\">opter pour une licence avec obligation de réciprocité</a>."
+    :text "Vous publierez votre logiciel et <a target=\"new\" href=\"https://www.data.gouv.fr/fr/licences\">opterez pour une licence avec obligation de réciprocité</a>."
     :done true}
    {:name "fin-5"
-    :text "Vous devez publier votre logiciel et <a target=\"new\" href=\"https://www.data.gouv.fr/fr/licences\">opter pour une licence permissive</a>."
+    :text "Vous publierez votre logiciel et <a target=\"new\" href=\"https://www.data.gouv.fr/fr/licences\">opterez pour une licence permissive</a>."
     :done true}])
