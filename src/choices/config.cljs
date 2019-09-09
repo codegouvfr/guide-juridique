@@ -111,7 +111,7 @@ Une licence est un contrat par lequel le concepteur du logiciel en autorise l'ex
                :goto    "7"}
               {:answer  "Oui, des éléments publiés sous licence libre."
                :summary "Votre logiciel intègre du code source tiers publié sous licence libre."
-               :goto    "8"
+               :goto    "7"
                :color   "is-warning"}
               {:answer  "Oui, des éléments qui ne sont pas publiés sous licence libre."
                :summary "Votre logiciel intègre du code source tiers qui n'est pas publié sous licence libre."
@@ -131,30 +131,18 @@ Une licence est un contrat par lequel le concepteur du logiciel en autorise l'ex
                :goto    "fin-1"}]}
 
    {:name    "7"
-    :text    "Êtes-vous autorisé à pratiquer une forme de redevance ?"
-    :help    "Il est possible pour vous d’exiger une <a target=\"new\" href=\"https://www.legifrance.gouv.fr/affichCodeArticle.do?idArticle=LEGIARTI000033219051&cidTexte=LEGITEXT000031366350&dateTexte=20161009\">redevance</a> pour la réutilisation des données publiques que vous avez l’obligation de communiquer, si vous êtes tenue, en tant qu’administration, de couvrir par des recettes propres une part substantielle des coûts liés à l'accomplissement de vos missions de service public."
-    :choices [{:answer  "Non"
-               :summary "Vous n'êtes pas autorisé à pratiquer une forme de redevance, la réutilisation du code source est gratuite."
-               :color   "is-success"
-               :goto    "9"}
-              {:answer  "Oui"
-               :summary "Vous êtes autorisé à pratiquer une forme de redevance.  L’établissement d’une licence est obligatoire, mais celle-ci est libre, elle doit simplement <a target=\"new\" href=\"https://www.legifrance.gouv.fr/affichCodeArticle.do?idArticle=LEGIARTI000033219073&cidTexte=LEGITEXT000031366350&dateTexte=20161009\">respecter les conditions édictées par le Code des relations entre le public et l’administration</a>."
-               :goto    "fin-2"
-               :color   "is-warning"}]}
-
-   {:name    "8"
     :text    "Êtes-vous juridiquement contraint par les droits tiers des logiciels libres à un choix limité de licences ?"
     :help    "Si le code source de votre logiciel intègre des codes sources publiés sous licence libre, la licence de ses éléments peut limiter votre choix de licence.  Par exemple, si votre code source intègre du code source publié sous licence GNU GPL, vous devrez utiliser la licence GNU GPL ou une licence compatible pour votre propre code source."
     :choices [{:answer  "Non"
                :summary "Le choix de votre licence est libre."
                :color   "is-success"
-               :goto    "9"}
+               :goto    "8"}
               {:answer  "Oui"
                :summary "Le choix de la licence est limité à celles qui vous sont autorisées par les licences des logiciels intégrés dans le vôtre."
                :goto    "fin-3"
                :color   "is-warning"}]}
 
-   {:name    "9"
+   {:name    "8"
     :text    "Des motifs d'intérêt général pourraient-ils limiter la libre réutilisation ?"
     :help    "Vous devez choisir parmi une <a target=\"new\" href=\"https://www.data.gouv.fr/fr/licences\">liste de licences</a> qui peuvent être utilisées par les administrations pour la réutilisation à titre gratuit de leurs informations publiques. Vous avez le choix entre des licences dites « permissives » qui offrent une libre réutilisation, et des licences avec obligation de réciprocité qui limitent la réutilisation, notamment en contraignant le réutilisateur à partager ses contributions sous licence libre."
     :choices [{:answer  "Non"
