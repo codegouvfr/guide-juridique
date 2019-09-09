@@ -155,14 +155,14 @@ Une licence est un contrat par lequel le concepteur du logiciel en autorise l'ex
                :color   "is-warning"}]}
 
    {:name    "9"
-    :text    "La libre réutilisation des données publiques pourrait-elle porter atteinte à l’intérêt général ?"
-    :help    "Vous devez choisir parmi une <a target=\"new\" href=\"https://www.data.gouv.fr/fr/licences\">liste de licences</a> qui peuvent être utilisées par les administrations pour la réutilisation à titre gratuit de leurs informations publiques. Vous avez le choix entre des licences dites « permissives » qui offrent une libre réutilisation, et des licences avec obligation de réciprocité, qui conditionnent la réutilisation à certains critères dont le partage des améliorations."
+    :text    "Des motifs d'intérêt général pourraient-ils limiter la libre réutilisation ?"
+    :help    "Vous devez choisir parmi une <a target=\"new\" href=\"https://www.data.gouv.fr/fr/licences\">liste de licences</a> qui peuvent être utilisées par les administrations pour la réutilisation à titre gratuit de leurs informations publiques. Vous avez le choix entre des licences dites « permissives » qui offrent une libre réutilisation, et des licences avec obligation de réciprocité qui limitent la réutilisation, notamment en contraignant le réutilisateur à partager ses contributions sous licence libre."
     :choices [{:answer  "Non"
-               :summary "La libre réutilisation du logiciel ne porte pas atteinte à l'intérêt général."
+               :summary "La libre réutilisation du logiciel peut se faire sans limite."
                :color   "is-success"
                :goto    "fin-5"}
               {:answer  "Oui"
-               :summary ["La libre réutilisation du logiciel ne porterait pas atteinte à l'intérêt général." "Vous devez opter pour une licence avec obligation de réciprocité."]
+               :summary ["La libre réutilisation du logiciel doit être limitée, Étant entendu que cette limitation doit être proportionnée et ne doit pas avoir pour objet ou pour effet de porter atteinte à la concurrence." "Vous devez opter pour une licence avec obligation de réciprocité."]
                :goto    "fin-4"
                :color   "is-warning"}]}
 
