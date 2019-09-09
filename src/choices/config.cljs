@@ -42,7 +42,7 @@ Je souhaite plus d'informations.
     :home-page  true
     :force-help true
     :no-summary true
-    :help       "Depuis 2005, la loi a affirmé un droit de réutilisation des informations publiques. Celle-ci concerne à la fois les données publiques (« open data ») et les logiciels (« libres »).   L’esprit de la réutilisation est d’être la plus libre possible, afin de favoriser les usages. Depuis décembre 2015, la réutilisation gratuite constitue la règle, pour les données comme pour les logiciels.<br/><br/>Ce guide s'adresse aux administrations publiques qui détiennent les droits de propriété intellectuelle leur permettant d'établir une licence logicielle : il permet de savoir le quoi et le comment de la publication, et propose de vous aider à choisir entre les deux grandes familles de licences libres."
+    :help       "Depuis 2005, la loi a affirmé un droit de réutilisation des informations publiques. Celle-ci concerne à la fois les données publiques (« open data ») et les logiciels (« libres »).  L’esprit de la réutilisation est d’être la plus libre possible, afin de favoriser les usages. Depuis décembre 2015, la réutilisation gratuite constitue la règle, pour les données comme pour les logiciels.<br/><br/>Ce guide s'adresse aux administrations publiques qui détiennent les droits de propriété intellectuelle leur permettant d'établir une licence logicielle : il permet de savoir le quoi et le comment de la publication, et propose de vous aider à choisir entre les deux grandes familles de licences libres."
     :choices    [{:answer "Commencer"
                   :goto   "1"
                   :color  "is-success"}]}
