@@ -24,10 +24,10 @@ Je souhaite plus d'informations.
 
 ;; Website header
 (def header
-  {:title    "Guide juridique logiciel libre"
+  {:title    "Guide juridique logiciels libres"
    :logo     "/img/logo-etalab-370x250.png"
-   :color    "is-primary"
-   :subtitle "Guide pour la publication des codes sources de l'administration"})
+   :color    "has-background-white-ter"
+   :subtitle "Guide juridique pour la publication des codes sources de l'administration"})
 
 ;; Website footer
 (def footer
