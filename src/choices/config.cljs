@@ -73,12 +73,12 @@ Je souhaite plus d'informations.
                :goto    "fin-1"}]}
 
    {:name    "3"
-    :text    "Existe-il un secret faisant obstacle à la communication du logiciel ?"
-    :help    "L’existence d’un secret peut empêcher la publication d’un logiciel.
+    :text    "Le code source contient-il des secrets faisant obstacle à la communication du logiciel ?"
+    :help    "La présence de secrets dans un code source peut empêcher la publication du logiciel associé.
 <br/><br/>
-Cela peut être un <a href=\"https://www.legifrance.gouv.fr/affichCodeArticle.do?idArticle=LEGIARTI000033265181&cidTexte=LEGITEXT000031366350&dateTexte=20170701\" target=\"new\">secret absolu</a> : certains logiciels, dans l’intérêt public, ne peuvent être rendus publics par vous, notamment pour des questions sécuritaires et de sûreté nationale.
+Il peut s'agir d'un <a href=\"https://www.legifrance.gouv.fr/affichCodeArticle.do?idArticle=LEGIARTI000033265181&cidTexte=LEGITEXT000031366350&dateTexte=20170701\" target=\"new\">secret absolu</a> : certains logiciels, dans l’intérêt public, ne peuvent être rendus publics par vous, notamment pour des questions sécuritaires et de sûreté nationale.
 <br/><br/>
-Le secret peut aussi être <a href=\"https://www.legifrance.gouv.fr/affichCodeArticle.do;jsessionid=9E840349D3C48307C89BEA8DBA9C48B2.tplgfr23s_2?idArticle=LEGIARTI000033218964&cidTexte=LEGITEXT000031366350&dateTexte=20170701\" target=\"new\">relatif</a>. Il ne vaut alors qu’à l’égard de certains administrés, puisqu’il s’agit de protéger leurs intérêts privés, il peut s’agir : (1) du secret de la vie privée, documents comportant une appréciation ou un jugement de valeur sur une personne physique, ou faisant apparaître un comportement ; (2) du secret en matière commerciale et industrielle."
+Le secret peut aussi être <a href=\"https://www.legifrance.gouv.fr/affichCodeArticle.do;jsessionid=9E840349D3C48307C89BEA8DBA9C48B2.tplgfr23s_2?idArticle=LEGIARTI000033218964&cidTexte=LEGITEXT000031366350&dateTexte=20170701\" target=\"new\">relatif</a>, comme des informations relatives à la vie privée d'une personne, des informations comportant une appréciation ou un jugement de valeur sur une personne physique ou des informations commerciales et industrielles risquant de porter préjudice à un acteur économique.  Dans ce cas, le code source du logiciel n'est communicable qu'aux personnes pour qui ces informations n'ont pas à rester secrètes."
     :choices [{:answer  "Non"
                :summary "Votre logiciel ne contient pas de secret légal, relatif ou absolu."
                :color   "is-success"
