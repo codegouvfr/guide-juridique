@@ -62,7 +62,7 @@ Je souhaite plus d'informations.
 
    {:name    "2"
     :text    "Votre logiciel est-il utilisé en production ?"
-    :help    "Le droit à communication ne s'applique qu'à des <a href=\"https://www.legifrance.gouv.fr/affichCodeArticle.do?idArticle=LEGIARTI000031367700&cidTexte=LEGITEXT000031366350&dateTexte=20160101\" target=\"new\">documents achevés</a>.  Un logiciel est réputé « achevé » dès lors qu’il est utilisé en production dans l'exercice d'une mission de service public, indépendamment de son numéro de version ou de son statut « bêta »."
+    :help    "Le droit à communication ne s'applique qu'à des <a href=\"https://www.legifrance.gouv.fr/affichCodeArticle.do?idArticle=LEGIARTI000031367700&cidTexte=LEGITEXT000031366350&dateTexte=20160101\" target=\"new\">documents achevés</a>.  Un logiciel est réputé « achevé » dès lors qu’il est utilisé en production dans l'exercice d'une mission de service public.  Un logiciel n'a pas besoin d'être en version 1.0 ou de sortir des statuts « alpha » ou « bêta » pour être considéré comme achevé."
     :choices [{:answer  "Oui"
                :summary "Votre logiciel est utilisé en production."
                :goto    "3"
