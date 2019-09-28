@@ -111,11 +111,10 @@
        [:button {:class    "modal-close is-large" :aria-label "close"
                  :on-click #(reset! show-modal false)}]]
       [:div {:class "section"}
+       [:h1 {:class "title has-text-centered"} (md-to-string text)]
        [:div {:class "level"}
-        [:div
-         [:h1 {:class "title"} (md-to-string text)]
-         (when (or force-help @show-help)
-           [:div {:style {:margin "1em"}} (md-to-string help)])]
+        (when (or force-help @show-help)
+          [:div {:style {:margin "1em"}} (md-to-string help)])
         (if-not done
           ;; Not done: display the help button
           [:a {:class    "button is-text"
@@ -160,12 +159,17 @@
           [:div {:id "copy-this" :class "tile is-ancestor"}
            [:div {:class "tile is-parent is-vertical is-12"}
             ;; Display score
-            (if (not-empty (:score (peek @history)))
-              [:div {:class "tile is-parent is-horizontal is-12"}
-               (for [s (:score (peek @history))]
-                 ^{:key (pr-str s)}
-                 [:div {:class "tile is-child box"}
-                  (str (first s) ": " (second s))])])
+            (if-let [scores (:score (peek @history))]
+              [:div
+               (when config/display-score
+                 [:div {:class "tile is-parent is-horizontal is-12"}
+                  (for [s scores]
+                    ^{:key (pr-str s)}
+                    [:div {:class "tile is-child box"}
+                     (str (first s) ": " (second s))])])
+               (config/score-function scores)
+               [:br]])
+            
             ;; Display answers
             (for [o (if @show-summary-answers
                       (reverse (:answers (peek @history)))
