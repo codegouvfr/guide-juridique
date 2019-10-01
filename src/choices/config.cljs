@@ -36,6 +36,8 @@ Je souhaite plus d'informations.
 
 (def score {})
 
+(def display-score false)
+
 (def tree
   [{:name       "0"
     :text       "Présentation du guide"
