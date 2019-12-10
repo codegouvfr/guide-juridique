@@ -54,7 +54,7 @@ Je souhaite plus d'informations.
    {:name       "1"
     :text       "Produisez-vous ou recevez-vous un logiciel, dans le cadre de l’exercice d’une mission de service public ?"
     :start-page true
-    :help       "Un logiciel est un ensemble des programmes, procédés et règles, et éventuellement de la documentation, relatifs au fonctionnement d'un ensemble de traitement de données. Une mission de service public relève d’une activité d’intérêt général menée sous le contrôle de l’administration avec des prérogatives de puissance publique."
+    :help       "Un logiciel est un ensemble des programmes, procédés et règles, et éventuellement de documentations, relatifs au fonctionnement d'un ensemble de traitement de données. Une mission de service public relève d’une activité d’intérêt général menée sous le contrôle de l’administration avec des prérogatives de puissance publique."
     :choices    [{:answer  "Oui"
                   :summary "Vous produisez ou recevez un <a target=\"new\" href=\"https://www.legifrance.gouv.fr/affichCodeArticle.do?idArticle=LEGIARTI000033218936&cidTexte=LEGITEXT000031366350&dateTexte=20161009\">document administratif</a> qui doit être communiqué pourvu qu’il ait un intérêt économique, social, sanitaire ou environnemental."
                   :goto    "2"
