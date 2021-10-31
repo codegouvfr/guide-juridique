@@ -4,7 +4,7 @@
 (ns choices.config)
 
 ;; Allow users to send you emails with the summary?
-(def mail-to "opensource@data.gouv.fr")
+(def mail-to "logiciels-libres@data.gouv.fr")
 
 ;; Display help along with questions by default?
 (def display-help true)
@@ -32,7 +32,7 @@ Je souhaite plus d'informations.
 ;; Website footer
 (def footer
   {:text    "Ce site a été réalisée par la mission [Etalab](https://www.etalab.gouv.fr/).  Son code source est disponible [ici](https://github.com/etalab/guide-juridique-logiciel-libre)."
-   :contact "opensource@data.gouv.fr"})
+   :contact "logiciels-libres@data.gouv.fr"})
 
 (def score {})
 
