@@ -1,4 +1,3 @@
-[![img](https://archive.softwareheritage.org/badge/origin/https://github.com/etalab/guide-juridique-logiciel-libre/?style=.svg)](https://archive.softwareheritage.org/browse/origin/https://github.com/etalab/guide-juridique-logiciel-libre/)
 
 
 # Présentation
@@ -6,7 +5,7 @@
 Ce dépôt contient un guide juridique pour la publication des logiciels
 du secteur public.
 
-Le code est dérivé de l'appliation <https://github.com/etalab/choices>.
+Le code est dérivé de l'appliation <https://git.sr.ht/bzg/choices>.
 
 
 # Test
@@ -23,6 +22,11 @@ Ce dépôt ne permet pas d'ouvrir des issues ou des *pull requests*.
 
 Les contributions au code sont les bienvenues sous forme de questions
 ou de patches à envoyer à `~etalab@lists.sr.ht`.
+
+
+# Archivé via Software Heritage
+
+[![img](https://archive.softwareheritage.org/badge/origin/https://github.com/etalab/guide-juridique-logiciel-libre/?style=.svg)](https://archive.softwareheritage.org/browse/origin/https://github.com/etalab/guide-juridique-logiciel-libre/)
 
 
 # Licence
