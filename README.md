@@ -2,10 +2,14 @@
 
 # Présentation
 
-Ce dépôt contient un guide juridique pour la publication des logiciels
-du secteur public.
+Ce dépôt contient le code pour une application web présentant un guide
+juridique pour la publication des logiciels du secteur public.
 
-Le code est dérivé de l'appliation <https://git.sr.ht/bzg/choices>.
+L'application est déployée pour
+[guide-juridique-logiciel-libre.etalab.gouv.fr](https://guide-juridique-logiciel-libre.etalab.gouv.fr).
+
+Ce dépôt de code source est dérivé de l'appliation
+<https://git.sr.ht/bzg/choices>.
 
 
 # Test
