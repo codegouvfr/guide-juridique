@@ -24,7 +24,7 @@ Ce dépôt de code source est dérivé de l'appliation
 Ce dépôt ne permet pas d'ouvrir des issues ou des *pull requests*.
 
 Les contributions au code sont les bienvenues sous forme de questions
-ou de patches à envoyer à `~etalab@lists.sr.ht`.
+ou de patches à envoyer à `~etalab/logiciels-libres@lists.sr.ht`.
 
 
 # Archivé via Software Heritage
