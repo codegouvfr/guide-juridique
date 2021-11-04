@@ -23,7 +23,7 @@ https://git.sr.ht/bzg/choices.
 Ce dépôt ne permet pas d'ouvrir des issues ou des /pull requests/.
 
 Les contributions au code sont les bienvenues sous forme de questions
-ou de patches à envoyer à =~etalab/logiciels-libres@lists.sr.ht=.
+ou de patches à envoyer à [[mailto:~etalab/logiciels-libres@lists.sr.ht][~etalab/logiciels-libres@lists.sr.ht]].
 
 * Archivé via Software Heritage
 
@@ -31,6 +31,6 @@ ou de patches à envoyer à =~etalab/logiciels-libres@lists.sr.ht=.
 
 * Licence
 
-2019-2021 DINUM, Bastien Guerry.
+2019-2021 DINUM, Etalab.
 
 L'application est publiée sous licence EPL 2.0.

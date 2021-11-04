@@ -5,7 +5,8 @@
 Ce dépôt contient le code pour une application web présentant un guide
 juridique pour la publication des logiciels du secteur public.
 
-L'application est déployée sur [guide-juridique-logiciel-libre.etalab.gouv.fr](https://guide-juridique-logiciel-libre.etalab.gouv.fr).
+L'application est déployée pour
+[guide-juridique-logiciel-libre.etalab.gouv.fr](https://guide-juridique-logiciel-libre.etalab.gouv.fr).
 
 Ce dépôt de code source est dérivé de l'appliation
 <https://git.sr.ht/bzg/choices>.
@@ -24,7 +25,7 @@ Ce dépôt de code source est dérivé de l'appliation
 Ce dépôt ne permet pas d'ouvrir des issues ou des *pull requests*.
 
 Les contributions au code sont les bienvenues sous forme de questions
-ou de patches à envoyer à `~etalab/logiciels-libres@lists.sr.ht`.
+ou de patches à envoyer à [~etalab/logiciels-libres@lists.sr.ht](mailto:~etalab/logiciels-libres@lists.sr.ht).
 
 
 # Archivé via Software Heritage
@@ -34,7 +35,7 @@ ou de patches à envoyer à `~etalab/logiciels-libres@lists.sr.ht`.
 
 # Licence
 
-2019-2021 DINUM, Bastien Guerry.
+2019-2021 DINUM, Etalab.
 
 L'application est publiée sous licence EPL 2.0.
 
