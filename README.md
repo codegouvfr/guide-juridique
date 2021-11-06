@@ -1,6 +1,6 @@
 [![img](https://archive.softwareheritage.org/badge/origin/https://github.com/etalab/guide-juridique-logiciel-libre/?style=.svg)](https://archive.softwareheritage.org/browse/origin/https://github.com/etalab/guide-juridique-logiciel-libre/)
 
-[https://git.sr.ht/~etalab/guide-juridique-logiciel-libre/tree/master/item/LICENSES](https://img.shields.io/badge/Licence-EPL%2C%20Licence%20Ouverte-orange.svg?style=flat-square)
+[![img](https://img.shields.io/badge/Licence-EPL%2C%20Licence%20Ouverte-orange.svg?style=flat-square)](https://git.sr.ht/~etalab/guide-juridique-logiciel-libre/tree/master/item/LICENSES)
 
 
 # Présentation
