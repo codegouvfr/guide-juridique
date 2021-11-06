@@ -33,6 +33,6 @@ ou de patches à envoyer à [~etalab/logiciels-libres@lists.sr.ht](mailto:~etala
 
 2019-2021 DINUM, Etalab.
 
-Le code de ce dépôt est publié sous [licence EPL 2.0](LICENSES/LICENSE-EPL-2.0.md) et les données du
-dépôt sous [licence Ouverte 2.0](LICENSES/LICENSE-Etalab-2.0.txt).
+Le code de ce dépôt est publié sous [licence EPL 2.0](LICENSES/LICENSE.EPL-2.0.md) et les données du
+dépôt sous [licence Ouverte 2.0](LICENSES/LICENSE.Etalab-2.0.txt).
 

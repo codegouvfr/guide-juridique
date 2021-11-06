@@ -29,5 +29,5 @@ ou de patches à envoyer à [[mailto:~etalab/logiciels-libres@lists.sr.ht][~etal
 
 2019-2021 DINUM, Etalab.
 
-Le code de ce dépôt est publié sous [[file:LICENSES/LICENSE-EPL-2.0.md][licence EPL 2.0]] et les données du
-dépôt sous [[file:LICENSES/LICENSE-Etalab-2.0.txt][licence Ouverte 2.0]].
+Le code de ce dépôt est publié sous [[file:LICENSES/LICENSE.EPL-2.0.md][licence EPL 2.0]] et les données du
+dépôt sous [[file:LICENSES/LICENSE.Etalab-2.0.txt][licence Ouverte 2.0]].
