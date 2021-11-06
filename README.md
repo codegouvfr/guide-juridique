@@ -1,3 +1,6 @@
+[![img](https://archive.softwareheritage.org/badge/origin/https://github.com/etalab/guide-juridique-logiciel-libre/?style=.svg)](https://archive.softwareheritage.org/browse/origin/https://github.com/etalab/guide-juridique-logiciel-libre/)
+
+[https://git.sr.ht/~etalab/guide-juridique-logiciel-libre/tree/master/item/LICENSES](https://img.shields.io/badge/Licence-EPL%2C%20Licence%20Ouverte-orange.svg?style=flat-square)
 
 
 # Présentation
@@ -28,14 +31,10 @@ Les contributions au code sont les bienvenues sous forme de questions
 ou de patches à envoyer à [~etalab/logiciels-libres@lists.sr.ht](mailto:~etalab/logiciels-libres@lists.sr.ht).
 
 
-# Archivé via Software Heritage
-
-[![img](https://archive.softwareheritage.org/badge/origin/https://github.com/etalab/guide-juridique-logiciel-libre/?style=.svg)](https://archive.softwareheritage.org/browse/origin/https://github.com/etalab/guide-juridique-logiciel-libre/)
-
-
 # Licence
 
 2019-2021 DINUM, Etalab.
 
-L'application est publiée sous licence EPL 2.0.
+Le code de ce dépôt est publié sous [licence EPL 2.0](LICENSES/LICENSE-EPL-2.0.md) et les données du
+dépôt sous [licence Ouverte 2.0](LICENSES/LICENSE-Etalab-2.0.txt).
 
