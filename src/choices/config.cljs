@@ -148,7 +148,7 @@ Une licence est un contrat par lequel le concepteur du logiciel en autorise l'ex
 
    {:name    "8"
     :text    "Des motifs d'intérêt général pourraient-ils limiter la libre réutilisation ?"
-    :help    "Vous devez choisir parmi une <a target=\"new\" href=\"https://www.data.gouv.fr/fr/licences\">liste de licences</a> qui peuvent être utilisées par les administrations pour la réutilisation à titre gratuit de leurs informations publiques. Par défaut, vous devez opter pour une licence permissive.  Si toutefois vous souhaitiez apporter des restrictions à la réutilisation, vous pouvez utiliser des licences dites « à réciprocité », à condition que ces restrictions soient justifiées par des motifs d'intérêt général et s'appliquent de façon proportionnée (cf. l'article [L323-2](https://www.legifrance.gouv.fr/affichCodeArticle.do?idArticle=LEGIARTI000033219073&cidTexte=LEGITEXT000031366350&dateTexte=20200908) du CRPA.)"
+    :help    "Vous devez choisir parmi une <a target=\"new\" href=\"https://www.data.gouv.fr/fr/licences\">liste de licences</a> qui peuvent être utilisées par les administrations pour la réutilisation à titre gratuit de leurs informations publiques. Par défaut, vous devez opter pour une licence permissive.  Si toutefois vous souhaitiez apporter des restrictions à la réutilisation, vous pouvez utiliser des licences dites « à réciprocité », à condition que ces restrictions soient justifiées par des motifs d'intérêt général et s'appliquent de façon proportionnée (cf. l'article [L323-2](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033219073/) du CRPA.)"
     :choices [{:answer  "Non"
                :summary "La libre réutilisation du logiciel peut se faire sans limite."
                :color   "is-success"
