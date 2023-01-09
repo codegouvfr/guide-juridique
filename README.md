@@ -34,7 +34,7 @@ contributeur accepte le [developer certificate of origin](https://developercerti
 
 # Licence
 
-2019-2022 DINUM, Etalab.
+2019-2023 DINUM, Etalab.
 
 Le code de ce dépôt est publié sous [licence EPL 2.0](LICENSES/LICENSE.EPL-2.0.md) et les données du
 dépôt sous [licence Ouverte 2.0](LICENSES/LICENSE.Etalab-2.0.txt).
