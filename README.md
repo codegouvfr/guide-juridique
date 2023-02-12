@@ -1,4 +1,4 @@
-[![img](https://img.shields.io/badge/Licence-EPL%2C%20Licence%20Ouverte-orange.svg?style=flat-square)](https://git.sr.ht/~etalab/guide-juridique-logiciel-libre/tree/master/item/LICENSES)
+[![img](https://img.shields.io/badge/Licence-EPL%2C%20Licence%20Ouverte-orange.svg?style=flat-square)](https://git.sr.ht/~codegouvfr/guide-juridique-logiciel-libre/tree/master/item/LICENSES)
 
 
 # Présentation
@@ -25,7 +25,7 @@ Ce dépôt de code source est dérivé de l'appliation
 Ce dépôt ne permet pas d'ouvrir des issues ou des *pull requests*.
 
 Les contributions au code sont les bienvenues sous forme de questions
-ou de patches à envoyer à `~etalab/codegouvfr-devel@lists.sr.ht`.
+ou de patches à envoyer à `~codegouvfr/codegouvfr-devel@lists.sr.ht`.
 
 Nous n'acceptons les contributions que si elles sont signées (*signed
 off*) du vrai nom du contributeur.  En signant ses contributions, le
