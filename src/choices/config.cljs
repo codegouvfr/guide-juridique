@@ -25,7 +25,7 @@ Je souhaite plus d'informations.
 ;; Website header
 (def header
   {:title    "Guide juridique logiciels libres"
-   :logo     "/img/logo-etalab-370x250.png"
+   ;; :logo     "/img/logo-etalab-370x250.png"
    :color    "has-background-white-ter"
    :subtitle "Guide juridique pour la publication des codes sources de l'administration"})
 
