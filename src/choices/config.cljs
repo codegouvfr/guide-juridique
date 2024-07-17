@@ -31,7 +31,7 @@ Je souhaite plus d'informations.
 
 ;; Website footer
 (def footer
-  {:text    "Ce site a été réalisée par la mission [Etalab](https://www.etalab.gouv.fr/).  Son code source est disponible [ici](https://github.com/etalab/guide-juridique-logiciel-libre)."
+  {:text    "Ce site a été réalisée par la mission [Etalab](https://www.etalab.gouv.fr/).  Son code source est disponible [ici](https://git.sr.ht/~codegouvfr/guide-juridique-logiciel-libre)."
    :contact "contact@code.gouv.fr"})
 
 (def score {})

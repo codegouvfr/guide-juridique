@@ -5,7 +5,7 @@
 (defproject choices "0.8.1"
 
   :description "Build SPAs to let users traverse choices"
-  :url "https://github.com/etalab/choices"
+  :url "https://git.sr.ht/~codegouvfr/guide-juridique-logiciel-libre"
   :license {:name "Eclipse Public License - v 2.0"
             :url  "http://www.eclipse.org/legal/epl-v20.html"}
 
