@@ -7,7 +7,7 @@ juridique pour la publication des logiciels du secteur public.
 
 L'application est là : [[https://guide-juridique-logiciel-libre.etalab.gouv.fr][guide-juridique-logiciel-libre.etalab.gouv.fr]].
 
-Ce dépôt de code source est dérivé de l'appliation
+Ce dépôt de code source est dérivé de l'application
 https://git.sr.ht/~bzg/choices.
 
 * Test
