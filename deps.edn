@@ -1,0 +1,45 @@
+{:version     "0.11"
+ :description "Web application to traverse a decision-tree and expose the result"
+ :url         "https://git.sr.ht/~bzg/choices"
+ :license     {:name "Eclipse Public License - v 2.0"
+               :url  "http://www.eclipse.org/legal/epl-v20.html"}
+
+ :deps
+ {
+  cljsjs/clipboard                      {:mvn/version "2.0.4-0"}
+  com.bhauman/figwheel-main             {:mvn/version "0.2.18"}
+  com.taoensso/tempura                  {:mvn/version "1.5.3"}
+  io.forward/yaml                       {:mvn/version "1.0.11"}
+  markdown-to-hiccup/markdown-to-hiccup {:mvn/version "0.6.2"}
+  metosin/reitit-frontend               {:mvn/version "0.7.0"}
+  org.clojure/clojure                   {:mvn/version "1.11.3"}
+  org.clojure/clojurescript             {:mvn/version "1.11.132"}
+  org.flatland/ordered                  {:mvn/version "1.15.11"}
+  reagent/reagent                       {:mvn/version "1.2.0"}
+  cljsjs/react                          {:mvn/version "18.2.0-1"}
+  cljsjs/react-dom                      {:mvn/version "18.2.0-1"}
+  reagent-utils/reagent-utils           {:mvn/version "0.3.8"}
+  }
+
+ :paths ["src" "src/clj" "src/cljs" "resources"]
+
+ :aliases
+ {:jar {:extra-deps {com.github.seancorfield/depstar {:mvn/version "RELEASE"}}
+        :main-opts  ["-m" "hf.depstar.uberjar" "choices.jar"
+                     "-C" "-m" "choices.server"]}
+
+  :fig {:main-opts   ["-m" "figwheel.main" "-b" "dev" "-r"]
+        :extra-paths ["src/cljs"]}
+
+  :js {:main-opts   ["-m" "figwheel.main" "-O" "advanced" "-bo" "dev"]
+       :extra-paths ["src/cljs"]}
+
+  :set {:exec-fn   choices.macros/set-theme
+        :exec-args {:theme "bulma"}}
+
+  :test {:extra-paths ["test"]
+         :extra-deps  {com.cognitect/test-runner
+                       {:git/url "https://github.com/cognitect-labs/test-runner.git"
+                        :sha     "7284cda41fb9edc0f3bc6b6185cfb7138fc8a023"}}
+         :main-opts   ["-m" "cognitect.test-runner"
+                       "-d" "test" "-n" "choices.test"]}}}
