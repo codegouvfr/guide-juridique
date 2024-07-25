@@ -5,7 +5,7 @@ locale: "fr"
 # Available themes: bulma, chota, dsfr
 # You can set the theme on the command line with
 # clj -X:set :theme bulma
-theme: "bulma"
+theme: "dsfr"
 
 # Customize UI strings
 ui-strings:
