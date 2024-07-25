@@ -16,7 +16,7 @@ tasks:
       cd guide-juridique-logiciel-libre/
       /home/build/bin/clojure -M:js
   - upload: |
-      rsync -e "ssh -o StrictHostKeyChecking=no" -av guide-awesome-codegouvfr/resources/public/* web@code.gouv.fr:/home/web/websites/guide-juridique-logiciel-libre/
+      rsync -e "ssh -o StrictHostKeyChecking=no" -av guide-juridique-logiciel-libre/resources/public/* web@code.gouv.fr:/home/web/websites/guide-juridique-logiciel-libre/
 triggers:
   - action: email
     condition: failure
