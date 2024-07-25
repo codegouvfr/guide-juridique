@@ -124,7 +124,7 @@ tree:
   - node:     "2"
     progress: "[1 10]"
     text:     "Votre logiciel peut-il être considéré comme « achevé » ?"
-    help: "Le droit à communication ne s'applique qu'à des [documents achevés](https://www.legifrance.gouv.fr/affichCodeArticle.do?idArticle=LEGIARTI000031367700&cidTexte=LEGITEXT000031366350&dateTexte=20160101\).  Un logiciel peut être considéré comme « achevé » dès lors que, dans l'exercice d'une mission de service public, il est déployé en production, est utilisé par des agents publics ou implémente un premier périmètre de fonctionnalités.  Un logiciel n'a pas besoin d'être en version 1.0 ou de sortir des statuts « alpha » ou « bêta » pour être considéré comme achevé."
+    help:     "Le droit à communication ne s'applique qu'à des [documents achevés](https://www.legifrance.gouv.fr/affichCodeArticle.do?idArticle=LEGIARTI000031367700&cidTexte=LEGITEXT000031366350&dateTexte=20160101).  Un logiciel peut être considéré comme « achevé » dès lors que, dans l'exercice d'une mission de service public, il est déployé en production, est utilisé par des agents publics ou implémente un premier périmètre de fonctionnalités.  Un logiciel n'a pas besoin d'être en version 1.0 ou de sortir des statuts « alpha » ou « bêta » pour être considéré comme achevé."
     choices:
     - answer:  "Oui"
       summary: "Votre logiciel est utilisé en production."
@@ -138,7 +138,7 @@ tree:
   - node:     "3"
     progress: "[2 10]"
     text:     "Le code source contient-il des secrets faisant obstacle à la communication du logiciel ?"
-    help: "La présence de secrets dans un code source peut empêcher la publication du logiciel associé.<br/><br/>Il peut s'agir d'un [secret absolu](https://www.legifrance.gouv.fr/affichCodeArticle.do?idArticle=LEGIARTI000033265181&cidTexte=LEGITEXT000031366350&dateTexte=20170701\) : certains logiciels, dans l'intérêt public, ne peuvent être rendus publics par vous, notamment pour des questions sécuritaires et de sûreté nationale. <br/><br/>Le secret peut aussi être [relatif](https://www.legifrance.gouv.fr/affichCodeArticle.do;jsessionid=9E840349D3C48307C89BEA8DBA9C48B2.tplgfr23s_2?idArticle=LEGIARTI000033218964&cidTexte=LEGITEXT000031366350&dateTexte=20170701\), comme des informations relatives à la vie privée d'une personne, des informations comportant une appréciation ou un jugement de valeur sur une personne physique ou des informations commerciales et industrielles risquant de porter préjudice à un acteur économique.  Dans ce cas, le code source du logiciel n'est communicable qu'aux personnes pour qui ces informations n'ont pas à rester secrètes."
+    help: "La présence de secrets dans un code source peut empêcher la publication du logiciel associé.<br/><br/>Il peut s'agir d'un [secret absolu](https://www.legifrance.gouv.fr/affichCodeArticle.do?idArticle=LEGIARTI000033265181&cidTexte=LEGITEXT000031366350&dateTexte=20170701) : certains logiciels, dans l'intérêt public, ne peuvent être rendus publics par vous, notamment pour des questions sécuritaires et de sûreté nationale. <br/><br/>Le secret peut aussi être [relatif](https://www.legifrance.gouv.fr/affichCodeArticle.do;jsessionid=9E840349D3C48307C89BEA8DBA9C48B2.tplgfr23s_2?idArticle=LEGIARTI000033218964&cidTexte=LEGITEXT000031366350&dateTexte=20170701), comme des informations relatives à la vie privée d'une personne, des informations comportant une appréciation ou un jugement de valeur sur une personne physique ou des informations commerciales et industrielles risquant de porter préjudice à un acteur économique.  Dans ce cas, le code source du logiciel n'est communicable qu'aux personnes pour qui ces informations n'ont pas à rester secrètes."
     choices:
     - answer:  "Non"
       summary: "Votre logiciel ne contient pas de secret légal, relatif ou absolu."
@@ -152,7 +152,7 @@ tree:
   - node: "4"
     progress: "[3 10]"
     text: "Est-il possible d'occulter les éléments relevant d'un secret par un traitement automatisé d'usage courant sans que cela ne dénature ni ne vide de son sens le document ?"
-    help: "La communication des documents administratifs peut exiger d'[occulter](https://www.legifrance.gouv.fr/affichCodeArticle.do;jsessionid=9E840349D3C48307C89BEA8DBA9C48B2.tplgfr23s_2?idArticle=LEGIARTI000031367719&cidTexte=LEGITEXT000031366350&dateTexte=20170701\) les secrets qu'ils contienneent.  Un document est « dénaturé » ou « vidé » de son sens s'il ne contient plus de données ou si les données clé pour la compréhension du document sont enlevées."
+    help: "La communication des documents administratifs peut exiger d'[occulter](https://www.legifrance.gouv.fr/affichCodeArticle.do;jsessionid=9E840349D3C48307C89BEA8DBA9C48B2.tplgfr23s_2?idArticle=LEGIARTI000031367719&cidTexte=LEGITEXT000031366350&dateTexte=20170701) les secrets qu'ils contienneent.  Un document est « dénaturé » ou « vidé » de son sens s'il ne contient plus de données ou si les données clé pour la compréhension du document sont enlevées."
     choices:
     - answer: "Oui"
       summary: "Vous devez occulter des éléments."
@@ -166,7 +166,7 @@ tree:
   - node: "5"
     progress: "[4 10]"
     text: "Votre logiciel est-il composé d'éléments protégés par des droits tiers, par exemple extraits du code source d'autres logiciels ?"
-    help: "La diffusion du logiciel au public peut être empêchée par [la détention, par un tiers, de droits de propriété intellectuelle sur une partie de votre logiciel](https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000031366350&idArticle=LEGIARTI000033219038\). Ce dernier peut, par exemple, être construit à partir d'éléments d'autres logiciels qui peuvent être protégés par des licences. <br/><br/> Une licence est un contrat par lequel le concepteur du logiciel en autorise l'exploitation par un tiers sous certaines conditions. Elle peut être libre, l'auteur concède alors tout ou partie de ses droits, en laissant au minimum 4 droits considérés fondamentaux aux utilisateurs (usage, étude, modification et redistribution de l'œuvre). Une licence explicite l'existence de droits tiers, mais il peut en exister même lorsqu'il n'y a pas de licence."
+    help: "La diffusion du logiciel au public peut être empêchée par [la détention, par un tiers, de droits de propriété intellectuelle sur une partie de votre logiciel](https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000031366350&idArticle=LEGIARTI000033219038). Ce dernier peut, par exemple, être construit à partir d'éléments d'autres logiciels qui peuvent être protégés par des licences. <br/><br/> Une licence est un contrat par lequel le concepteur du logiciel en autorise l'exploitation par un tiers sous certaines conditions. Elle peut être libre, l'auteur concède alors tout ou partie de ses droits, en laissant au minimum 4 droits considérés fondamentaux aux utilisateurs (usage, étude, modification et redistribution de l'œuvre). Une licence explicite l'existence de droits tiers, mais il peut en exister même lorsqu'il n'y a pas de licence."
     choices:
     - answer: "Non"
       summary: "Il n'existe pas de droits tiers sur le code source de votre logiciel."
@@ -212,14 +212,14 @@ tree:
   - node: "8"
     progress: "[7 9]"
     text: "Des motifs d'intérêt général pourraient-ils limiter la libre réutilisation ?"
-    help: "Vous devez choisir parmi une [liste de licences](https://www.data.gouv.fr/fr/licences\) qui peuvent être utilisées par les administrations pour la réutilisation à titre gratuit de leurs informations publiques. Par défaut, vous devez opter pour une licence permissive.  Si toutefois vous souhaitiez apporter des restrictions à la réutilisation, vous pouvez utiliser des licences dites « à réciprocité », à condition que ces restrictions soient justifiées par des motifs d'intérêt général et s'appliquent de façon proportionnée (cf. l'article [L323-2](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033219073/) du CRPA.)"
+    help: "Vous devez choisir parmi une [liste de licences](https://www.data.gouv.fr/fr/licences) qui peuvent être utilisées par les administrations pour la réutilisation à titre gratuit de leurs informations publiques. Par défaut, vous devez opter pour une licence permissive.  Si toutefois vous souhaitiez apporter des restrictions à la réutilisation, vous pouvez utiliser des licences dites « à réciprocité », à condition que ces restrictions soient justifiées par des motifs d'intérêt général et s'appliquent de façon proportionnée (cf. l'article [L323-2](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033219073/) du CRPA.)"
     choices:
     - answer: "Non"
       summary: "La libre réutilisation du logiciel peut se faire sans limite."
       color: "is-success"
       goto: "end-5"
     - answer: "Oui"
-      summary: ["La libre réutilisation du logiciel doit être limitée, Étant entendu que cette limitation doit être proportionnée et ne doit pas avoir pour objet ou pour effet de porter atteinte à la concurrence." "Vous devez opter pour une licence avec obligation de réciprocité."]
+      summary: ["La libre réutilisation du logiciel doit être limitée, Étant entendu que cette limitation doit être proportionnée et ne doit pas avoir pour objet ou pour effet de porter atteinte à la concurrence.", "Vous devez opter pour une licence avec obligation de réciprocité."]
       color: "is-warning"
       goto: "fin-4"
 
