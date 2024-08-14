@@ -97,7 +97,7 @@ score-variables:
 # Mandatory configuration option
 tree:
   - node:       "0"
-    text:       "Présentation du guide."
+    text:       "Pourquoi ce guide ?"
     home-page:  true
     no-summary: true
     help:       "Depuis 2005, la loi a affirmé un droit de réutilisation des informations publiques. Celle-ci concerne à la fois les données publiques (« open data ») et les logiciels (« libres »).  L'esprit de la réutilisation est d'être la plus libre possible, afin de favoriser les usages. Depuis décembre 2015, la réutilisation gratuite constitue la règle, pour les données comme pour les logiciels.<br/><br/>Ce guide s'adresse aux administrations publiques qui détiennent les droits de propriété intellectuelle leur permettant d'établir une licence logicielle : il permet de savoir le quoi et le comment de la publication, et propose de vous aider à choisir entre les deux grandes familles de licences libres"
@@ -221,7 +221,7 @@ tree:
     - answer: "Oui"
       summary: ["La libre réutilisation du logiciel doit être limitée, Étant entendu que cette limitation doit être proportionnée et ne doit pas avoir pour objet ou pour effet de porter atteinte à la concurrence.", "Vous devez opter pour une licence avec obligation de réciprocité."]
       color: "is-warning"
-      goto: "fin-4"
+      goto: "end-4"
 
   - node: "end-1"
     progress: "[10 10]"
