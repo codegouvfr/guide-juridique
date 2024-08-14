@@ -161,7 +161,7 @@ tree:
     - answer: "Non"
       summary: "Vous ne pouvez pas occulter ces éléments, vous ne pouvez pas publier ce logiciel."
       color: "is-warning"
-      goto: "fin-1"
+      goto: "end-1"
 
   - node: "5"
     progress: "[4 10]"
