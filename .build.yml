@@ -4,7 +4,7 @@ packages:
   - rlwrap
   - default-jre
 sources:
-  - https://git.sr.ht/~codegouvfr/guide-juridique-logiciel-libre
+  - https://git.sr.ht/~codegouvfr/guide-juridique
 secrets:
   - bdd50953-add5-4ddb-9f34-9f0781900b7e
 tasks:
@@ -13,10 +13,10 @@ tasks:
       chmod +x linux-install.sh
       ./linux-install.sh  --prefix /home/build
   - build: |
-      cd guide-juridique-logiciel-libre/
+      cd guide-juridique/
       /home/build/bin/clojure -M:js
   - upload: |
-      rsync -e "ssh -o StrictHostKeyChecking=no" -av guide-juridique-logiciel-libre/resources/public/* web@code.gouv.fr:/home/web/websites/guide-juridique-logiciel-libre/
+      rsync -e "ssh -o StrictHostKeyChecking=no" -av guide-juridique/resources/public/* web@code.gouv.fr:/home/web/websites/guide-juridique/
 triggers:
   - action: email
     condition: failure
