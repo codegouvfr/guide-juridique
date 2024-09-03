@@ -7,7 +7,7 @@
 Ce dépôt contient le code pour une application web présentant un guide
 juridique pour la publication des logiciels du secteur public.
 
-L'application est là : [guide-juridique-logiciel-libre.etalab.gouv.fr](https://guide-juridique-logiciel-libre.etalab.gouv.fr).
+L'application est là : [code.gouv.fr/guides/juridique](https://code.gouv.fr/guides/juridique/)
 
 Ce dépôt de code source est dérivé de l'application
 <https://git.sr.ht/~bzg/choices>.
