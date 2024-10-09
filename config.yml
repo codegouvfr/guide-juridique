@@ -11,8 +11,8 @@ theme: "dsfr"
 ui-strings:
   # copy-to-clipboard:    "Copy in the clipboard"
   mail-to-message:      "Send by email"
-  mail-subject:         "[Guide logiciel libre] Demande d'aide ou d'informations"
-  mail-body:            "Bonjour, je viens d'utiliser votre guide pour l'ouverture des logiciels de l'administration. Voici les résultats que j'obtiens: %s Je souhaite plus d'informations..."
+  mail-subject:         "Guide interactif sur la publication des codes sources : demande d'aide ou d'informations"
+  mail-body:            "Bonjour, je viens d'utiliser votre guide pour la publication des codes sources de l'administration. Voici les résultats que j'obtiens: %s Je souhaite plus d'informations..."
   redo:                 "Redo"
   # ok:                   "Okay"
   # contact-intro:        "Contact: "
@@ -21,12 +21,12 @@ ui-strings:
 
 # Website header
 header:
- title:    "Guide juridique logiciels libres"
- subtitle: "Guide juridique pour la publication des codes sources de l'administration"
+ title:    "« En tant qu'organisme public, dois-je publier ce code source ? »"
+ subtitle: "Guide juridique interactif sur la publication des codes sources de l'administration."
 
 # Website footer
 footer:
- text:    "Ce site a été réalisée par la mission [Etalab](https://www.etalab.gouv.fr/) en 2019.  Il est maintenu par la [mission logiciels libres](https://code.gouv.fr) de la DINUM.  Vous pouvez lire son [code source](https://git.sr.ht/~codegouvfr/guide-juridique-logiciel-libre)."
+ text:    "Ce site a été réalisée par la mission [Etalab](https://www.etalab.gouv.fr) en 2019.  Il est maintenu par la [mission logiciels libres](https://code.gouv.fr) de la DINUM.  Vous pouvez lire son [code source](https://git.sr.ht/~codegouvfr/guide-juridique-logiciel-libre)."
  contact:  "contact@code.gouv.fr"
 
 # Allow users to send you emails with the summary?
