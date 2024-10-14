@@ -13,12 +13,13 @@ Ce dépôt de code source est dérivé de l'application
 <https://git.sr.ht/~bzg/choices>.
 
 
-# Test
+# Test et compilation
 
-1.  Modifier `src/cljs/choices/config.cljs`
-2.  Lancer `~$ lein fig:test` pour tester le format de `config/tree`
-3.  Compilez avec `~$ lein fig:min`
-4.  Vos fichiers statiques sont dans `resources/public/`
+1.  Modifiez `config.yml`
+2.  Testez votre configuration avec `clj -M:test`
+3.  Compilez avec `clj -M:fig`
+
+Vos fichiers statiques sont dans `resources/public/`
 
 
 # Contribution
