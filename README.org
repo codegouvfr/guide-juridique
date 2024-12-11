@@ -9,7 +9,7 @@ juridique pour la publication des logiciels du secteur public.
 L'application est là : [[https://code.gouv.fr/guides/juridique/][code.gouv.fr/guides/juridique]]
 
 Ce dépôt de code source est dérivé de l'application
-https://git.sr.ht/~bzg/choices.
+https://github.com/bzg/choices.
 
 * Test et compilation
 
@@ -22,7 +22,7 @@ Vos fichiers statiques sont dans =resources/public/=
 * Contribution
 
 Les contributions au code sont les bienvenues sous forme de questions
-ou de patches à envoyer à =~codegouvfr/dev@lists.sr.ht=.
+ou de patches à envoyer à =contact@code.gouv.fr=.
 
 Nous n'acceptons les contributions que si elles sont signées (/signed
 off/) du vrai nom du contributeur.  En signant ses contributions, le
@@ -30,8 +30,8 @@ contributeur accepte le [[https://developercertificate.org][developer certificat
 
 Si vous ne savez pas comment contribuer autrement qu'avec des /pull
 requests/, faites votre PR, ajoutez =.patch= à l'URL de la PR,
-téléchargez le patch qui s'affiche et envoyez-le en pièce jointe à la
-liste =~codegouvfr/dev@lists.sr.ht=.
+téléchargez le patch qui s'affiche et envoyez-le en pièce jointe à
+=contact@code.gouv.fr=.
 
 * Licence
 
