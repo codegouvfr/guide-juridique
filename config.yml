@@ -26,7 +26,7 @@ header:
 
 # Website footer
 footer:
- text:    "Ce site a été réalisée par la mission [Etalab](https://www.etalab.gouv.fr) en 2019.  Il est maintenu par la [mission logiciels libres](https://code.gouv.fr) de la DINUM.  Vous pouvez lire son [code source](https://github.com/codegouvfr/guide-juridique-logiciel-libre)."
+ text:    "Ce site a été réalisée par la mission [Etalab](https://www.etalab.gouv.fr) en 2019.  Il est maintenu par la [mission logiciels libres](https://code.gouv.fr) de la DINUM.  Vous pouvez lire son [code source](https://github.com/codegouvfr/guide-juridique)."
  contact:  "contact@code.gouv.fr"
 
 # Allow users to send you emails with the summary?

@@ -1,5 +1,5 @@
 [[https://code.gouv.fr/documentation/#/publier.md][https://img.shields.io/badge/code.gouv.fr-ouvert-mediumseagreen.svg]]
-[[https://github.com/codegouvfr/guide-juridique-logiciel-libre/tree/master/item/LICENSES][https://img.shields.io/badge/Licence-EPL%2C%20Licence%20Ouverte-orange.svg]]
+[[https://github.com/codegouvfr/guide-juridique/tree/master/item/LICENSES][https://img.shields.io/badge/Licence-EPL%2C%20Licence%20Ouverte-orange.svg]]
 
 * Présentation 
 
