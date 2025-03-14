@@ -1,7 +1,7 @@
 [[https://code.gouv.fr/documentation/#quels-degres-douverture-pour-les-codes-sources][https://img.shields.io/badge/code.gouv.fr-ouvert-mediumseagreen.svg]]
 [[https://github.com/codegouvfr/guide-juridique/tree/master/item/LICENSES][https://img.shields.io/badge/Licence-EPL%2C%20Licence%20Ouverte-orange.svg]]
 
-* Présentation 
+* Présentation
 
 Ce dépôt contient le code pour une application web présentant un guide
 juridique pour la publication des logiciels du secteur public.
@@ -21,16 +21,13 @@ Vos fichiers statiques sont dans =resources/public/=
 
 * Contribution
 
-Les contributions au code sont les bienvenues sous forme de questions
-ou de patches à envoyer à =contact@code.gouv.fr=.
+Les contributions sont les bienvenues !
 
-Nous n'acceptons les contributions que si elles sont signées (/signed
-off/) du vrai nom du contributeur.  En signant ses contributions, le
-contributeur accepte le [[https://developercertificate.org][developer certificate of origin]].
+Nous ne pouvons les accepter que si elles sont signées (/signed off/) du
+nom du contributeur. En signant ses contributions, celui-ci accepte le
+[[https://developercertificate.org][developer certificate of origin]].
 
-Si vous ne savez pas comment contribuer autrement qu'avec des /pull
-requests/, faites votre PR, ajoutez =.patch= à l'URL de la PR,
-téléchargez le patch qui s'affiche et envoyez-le en pièce jointe à
+Les remontées de bug de sécurité doivent être envoyés directement à
 =contact@code.gouv.fr=.
 
 * Licence
