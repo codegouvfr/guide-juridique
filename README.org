@@ -28,7 +28,7 @@ nom du contributeur. En signant ses contributions, celui-ci accepte le
 [[https://developercertificate.org][developer certificate of origin]].
 
 Les remontées de bug de sécurité doivent être envoyés directement à
-=contact@code.gouv.fr=.
+=floss@numerique.gouv.fr=.
 
 * Licence
 
